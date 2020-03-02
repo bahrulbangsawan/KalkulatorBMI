@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/app_navigation"
+            app:startDestination="@id/mainActivity">
+
+    <activity android:id="@+id/mainActivity" android:name="org.d3if4118.bmi.MainActivity" android:label="activity_main"
+              tools:layout="@layout/activity_main"/>
+    <activity android:id="@+id/gemuk" android:name="org.d3if4118.bmi.gemuk" android:label="activity_gemuk"
+              tools:layout="@layout/activity_gemuk"/>
+    <activity android:id="@+id/ideal" android:name="org.d3if4118.bmi.ideal" android:label="activity_ideal"
+              tools:layout="@layout/activity_ideal"/>
+    <activity android:id="@+id/kurus" android:name="org.d3if4118.bmi.kurus" android:label="activity_kurus"
+              tools:layout="@layout/activity_kurus"/>
+    <action android:id="@+id/action_global_gemuk" app:destination="@id/gemuk"/>
+</navigation>
